@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "primaryEffects": {
+            "armorPenetration": 2
+        },
+        "durability": 4,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gui2.png",
+        "textureX": 32
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "countFactor": 1,
+            "moduleKey": "sword/rapier",
+            "moduleVariant": "rapier/"
+        }
+    ]
+}

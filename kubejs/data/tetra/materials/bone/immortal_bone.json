@@ -1,0 +1,29 @@
+{
+    "key": "eeeab_immortal_bone",
+    "category": "bone",
+    "primary": 6.8,
+    "secondary": 2.1,
+    "tertiary": 1.8,
+    "durability": 400,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 80,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "attributes":{
+        "irons_spellbooks:blood_spell_power":0.2,
+        "irons_spellbooks:blood_magic_resist":0.2
+    },
+    "tints": {
+        "glyph": "676866",
+        "texture": "676866"
+    },
+    "textures": ["bone", "crude"],
+  
+    "material": {
+      "items": ["eeeabsmobs:immortal_bone"]
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:iron"
+    }
+  }

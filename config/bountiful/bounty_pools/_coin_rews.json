@@ -1,0 +1,78 @@
+{
+    "content": {
+        "cashier_copper_coin_common": {
+            "type": "item",
+            "content": "kubejs:copper_coin",
+            "rarity": "COMMON",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 1
+        },
+        "cashier_copper_coin_uncommon": {
+            "type": "item",
+            "content": "kubejs:copper_coin",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 1
+        },
+        "cashier_copper_iron_uncommon": {
+            "type": "item",
+            "content": "kubejs:iron_coin",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 6
+            },
+            "unitWorth": 5
+        },
+        "cashier_copper_iron_rare": {
+            "type": "item",
+            "content": "kubejs:iron_coin",
+            "rarity": "RARE",
+            "amount": {
+                "min": 7,
+                "max": 16
+            },
+            "unitWorth": 5,
+            "weightMult": 0.8
+        },
+        "cashier_copper_gold_rare": {
+            "type": "item",
+            "content": "kubejs:gold_coin",
+            "rarity": "RARE",
+            "amount": {
+                "min": 2,
+                "max": 3
+            },
+            "unitWorth": 140,
+            "weightMult": 0.2
+        },
+        "cashier_copper_gold_EPIC": {
+            "type": "item",
+            "content": "kubejs:gold_coin",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 4,
+                "max": 10
+            },
+            "unitWorth": 140,
+            "weightMult": 0.05
+        },
+        "cashier_copper_diamond_EPIC": {
+            "type": "item",
+            "content": "kubejs:diamond_coin",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 900,
+            "weightMult": 0.05
+        }
+    }
+}

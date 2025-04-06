@@ -1,0 +1,999 @@
+{
+	autofocus_id: "3708EAE0AD68A2FC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2E0A0F6E1828D55E"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "2E0A0F6E1828D55E"
+	images: [
+		{
+			click: "#05ABBE43A738C603"
+			height: 1.0d
+			hover: ["仙灵戒"]
+			image: "kubejs:item/pixie_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			click: "#7C29B973A1ADCB79"
+			height: 1.0d
+			hover: ["伊雷娜的扫帚"]
+			image: "elainabroom:item/elaina_broom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			click: "#7C29B973A1ADCB79"
+			height: 1.35d
+			hover: ["可以飞行的道具"]
+			image: "supplementaries:block/awnings/awning_white_side"
+			rotation: 0.0d
+			width: 1.35d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			click: "#05ABBE43A738C603"
+			height: 1.35d
+			hover: ["可以飞行的道具"]
+			image: "supplementaries:block/awnings/awning_white_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.35d
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			click: "夜深了~"
+			height: 1.0d
+			hover: ["夜深了~"]
+			image: "born_in_chaos_v1:item/sprucecowboyinthemoonlight"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:textures/particle/soul_sprite_anim_14.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "supplementaries:item/altimeter/minecraft_overworld"
+			rotation: 0.0d
+			width: 3.6d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "alexscaves:textures/gui/book/crafting_grid.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "metalbarrels:item/to_iron"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.2d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "metalbarrels:item/to_gold"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.2d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "metalbarrels:item/to_diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.2d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "metalbarrels:item/to_netherite"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.2d
+			y: -7.0d
+		}
+		{
+			click: "星星点点照亮整片夜空"
+			height: 1.0d
+			hover: ["星星点点照亮整片夜空"]
+			image: "minecraft:item/light"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "create:textures/ponder/tag/item_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "lifefruit:block/life_fruit_crop_stage_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "attributeslib:textures/mob_effect/flying.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "tide:grassy_fishing_bobber"
+			id: "3708EAE0AD68A2FC"
+			shape: "square"
+			subtitle: "你将从这里书写你的故事"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "01B87B25F16F30E8"
+				title: "&2欢迎来到主世界"
+				type: "dimension"
+			}]
+			title: "&2欢迎来到主世界"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3708EAE0AD68A2FC"]
+			id: "060D652CA11C9BF0"
+			subtitle: "任何的原木"
+			tasks: [{
+				count: 3L
+				id: "1E10F1029467A2C7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "任何的原木"
+				type: "item"
+			}]
+			title: "要致富先撸树!"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["060D652CA11C9BF0"]
+			description: ["发光菇是&8石精灵&r的最爱,可以把他&m诱骗&r吸引过来"]
+			id: "08A7FBDA1C5DAC55"
+			rewards: [{
+				count: 5
+				id: "78B03A99D118F883"
+				item: "quark:glow_shroom"
+				type: "item"
+			}]
+			subtitle: "哦！亮闪闪！"
+			tasks: [{
+				consume_items: false
+				count: 11L
+				id: "4151681C58C80017"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			id: "73476759396F6D4A"
+			rewards: [{
+				id: "3CF66D8134467928"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			subtitle: "应该没人会做铜质背包吧"
+			tasks: [{
+				id: "3BB1BB4769747BFC"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73476759396F6D4A"]
+			id: "7146978037DFC6EF"
+			tasks: [{
+				id: "6EB01A3A054BCB08"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7146978037DFC6EF"]
+			hide_until_deps_visible: false
+			id: "6C3026EC771DD29B"
+			subtitle: "&b也是富起来了"
+			tasks: [{
+				id: "755010A3E2CC0B87"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C3026EC771DD29B"]
+			description: [""]
+			id: "363A4683E8C1D36A"
+			subtitle: "&5终极后背"
+			tasks: [{
+				id: "1CBD1E6D874F2C7C"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["73476759396F6D4A"]
+			id: "695BE1F8471216EE"
+			invisible: true
+			subtitle: "不是老弟 你还真做啊"
+			tasks: [{
+				id: "13322B3B96AC2984"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			id: "0C70B90A7EBF7E96"
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "24D8434B36ABCD43"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			description: ["是时候找一处地方或者盖一处建筑安家休息一会了"]
+			id: "393F3706180F67AF"
+			subtitle: "有家可归"
+			tasks: [{
+				id: "50147C2F02FE832E"
+				title: "该安家了"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["393F3706180F67AF"]
+			id: "0E9B3F28EC4B7D41"
+			tasks: [{
+				consume_items: false
+				id: "6B4E68E0353A2F01"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C70B90A7EBF7E96"]
+			description: ["不用担心他会被炸毁,他有着基岩一样的抗爆炸能力"]
+			id: "48A6CE52E007D6C9"
+			subtitle: "能召唤大部分boss,当然你也可以去寻找boss结构"
+			tasks: [{
+				id: "599F822E143BA315"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "50D7451DB44FBC97"
+			subtitle: "击败寒霜魔像!"
+			tasks: [{
+				id: "168DB724649C99F9"
+				item: "legendary_monsters:eye_of_frost"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "70C450BA44E7BB4F"
+			subtitle: "击败云傀儡!"
+			tasks: [{
+				id: "5A48001788978FDA"
+				item: "legendary_monsters:eye_of_air"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "3205DC36831B80F8"
+			subtitle: "击败蔓石巨像!"
+			tasks: [{
+				id: "2D51DC0845325BD6"
+				item: "legendary_monsters:eye_of_moss"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "72F2D891FACCB45A"
+			subtitle: "击败古代傀儡!"
+			tasks: [{
+				id: "7E2FA66B78174DE7"
+				item: "legendary_monsters:eye_of_many_ribs"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "7993CD20D039A20E"
+			subtitle: "击败恶魔附身的圣骑士!"
+			tasks: [{
+				id: "75D8A73E3AB319B0"
+				item: "legendary_monsters:eye_of_ghost"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "6E703FB3EFB5D33C"
+			subtitle: "击败沙丘哨兵!"
+			tasks: [{
+				id: "791BA749BC705FED"
+				item: "legendary_monsters:eye_of_sandstorm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C70B90A7EBF7E96"]
+			description: ["能够掉落一些特殊武器以及盾牌"]
+			id: "1FD1FA42965AF495"
+			subtitle: "是时候击杀这些精英怪了"
+			tasks: [{
+				id: "0F61DDBF5969E29E"
+				type: "checkmark"
+			}]
+			title: "精英怪"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3205DC36831B80F8"]
+			id: "7AEFBB54F34EE852"
+			tasks: [{
+				id: "13D34C658C8CA439"
+				item: "legendary_monsters:nature_crystal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70C450BA44E7BB4F"]
+			id: "09589C05AACDE48E"
+			tasks: [{
+				id: "2B048FF1741A2E2C"
+				item: "legendary_monsters:air_rune"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["50D7451DB44FBC97"]
+			id: "132B554EAB3186B6"
+			tasks: [{
+				id: "061A26DC0BEF5555"
+				item: "legendary_monsters:primal_ice_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E703FB3EFB5D33C"]
+			id: "4FB6CA6AC76B5D9F"
+			subtitle: "&m不是豌豆射手!"
+			tasks: [
+				{
+					id: "1922954C0D58AD16"
+					item: "legendary_monsters:ancient_sandstone_shard"
+					type: "item"
+				}
+				{
+					id: "1EFF4CD7346A5D83"
+					item: "legendary_monsters:crystal_of_sandstorm"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7993CD20D039A20E"]
+			id: "5F933A8456A46FD9"
+			tasks: [
+				{
+					id: "3814B148EDF8ECB1"
+					item: "legendary_monsters:knights_sword_blade_half"
+					type: "item"
+				}
+				{
+					id: "06954353EE956AF3"
+					item: "legendary_monsters:long_stick_half"
+					type: "item"
+				}
+				{
+					id: "18941082C092F14F"
+					item: "legendary_monsters:corrupted_soul"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["72F2D891FACCB45A"]
+			id: "5AE1E68BFD659818"
+			tasks: [
+				{
+					id: "4CBD53EDD93C5BDC"
+					item: "legendary_monsters:chiseled_ancient_dripstone_shard"
+					type: "item"
+				}
+				{
+					id: "4E15F1661C579603"
+					item: "legendary_monsters:ancient_spike"
+					type: "item"
+				}
+				{
+					id: "23C1CD35941B190D"
+					item: {
+						Count: 1
+						id: "legendary_monsters:anchor_handle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FD1FA42965AF495"]
+			id: "0331B572869101F5"
+			invisible: true
+			tasks: [
+				{
+					entity: "legendary_monsters:dune_sentinel"
+					id: "401969A282B6B046"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:overgrown_colossus"
+					id: "3AE2553C72DDD97A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:cloud_golem"
+					id: "67DA7DA99F97A7F0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:frostbitten_golem"
+					id: "65794D49B9042B60"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:posessed_paladin"
+					id: "21EB0105CAEFB369"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:ancient_guardian"
+					id: "676B185A1132EFC2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "精英杀手"
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			id: "2581C712DD1526E7"
+			subtitle: "我的蜂蜜在哪里？"
+			tasks: [{
+				icon: "minecraft:bee_nest"
+				id: "504B8CA8085252C7"
+				structure: "queen_bee:beehive"
+				type: "structure"
+			}]
+			title: "蜂后巢穴"
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2581C712DD1526E7"]
+			id: "641DE461E63520AC"
+			subtitle: "蛰刺行动"
+			tasks: [{
+				entity: "queen_bee:queen_bee"
+				icon: "queen_bee:queen_bee_spawn_egg"
+				id: "398FEAF4C80CF20C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E2D0558D95A536B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"敌对生物(红温了"
+				"&6转化试剂&0&r可以治愈他并将它变为下一阶段"
+				""
+				"如果想要火把花可以去商店看看"
+			]
+			id: "54EFE8290A0E9EB2"
+			subtitle: "看起来像是被火烧了一样"
+			tasks: [{
+				icon: "born_in_chaos_v1:evil_carved_pumpkin"
+				id: "0F680F4B21EB51E6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "born_in_chaos_v1:seared_spirit_not_despawn"
+				type: "observation"
+			}]
+			title: "炽魂南瓜人"
+			x: 20.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"54EFE8290A0E9EB2"
+				"20AC3DF40B946082"
+			]
+			description: [
+				"好像不再怕火了,攻击还带火"
+				"中立生物"
+				"杀死后掉落恶魔南瓜"
+				"完成其一即可解锁"
+			]
+			icon: "born_in_chaos_v1:infernal_medicine_icon"
+			id: "7C6C4CA30B71A90C"
+			tasks: [
+				{
+					icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+					id: "3A29251C5BEC8C8D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "born_in_chaos_v1:infernal_spirit"
+					type: "observation"
+				}
+				{
+					advancement: "born_in_chaos_v1:infernal_medicine"
+					criterion: ""
+					id: "0E00A00058414A2D"
+					type: "advancement"
+				}
+			]
+			title: "邪魂南瓜人"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{image:kubejs:textures/task/010.png width:75 height:159 align:center}"
+				"中立生物"
+				"做出来之后也不是你的,他还会到处乱跑"
+				"完成其一即可解锁"
+			]
+			icon: "born_in_chaos_v1:pumpkin_spirit_icon"
+			id: "6E2D0558D95A536B"
+			min_required_tasks: 1
+			subtitle: "你也可以像这样搭一个自己的南瓜人"
+			tasks: [
+				{
+					icon: "minecraft:carved_pumpkin"
+					id: "009DAFE28F870D39"
+					observe_type: 5
+					timer: 0L
+					to_observe: "born_in_chaos_v1:pumpkin_spiri"
+					type: "observation"
+				}
+				{
+					advancement: "born_in_chaos_v1:scarecrow"
+					criterion: ""
+					disable_toast: true
+					id: "4C984D612ECFAA30"
+					type: "advancement"
+				}
+				{
+					icon: "minecraft:carved_pumpkin"
+					id: "6519920029E3FEB0"
+					structure: "born_in_chaos_v1:farm"
+					title: "找到结构:南瓜稻草人的农场"
+					type: "structure"
+				}
+			]
+			title: "南瓜人"
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			id: "3005027AFA2F3708"
+			subtitle: "你不看看岩浆下面有什么吗"
+			tasks: [{
+				icon: "born_in_chaos_v1:black_argillite_column"
+				id: "647488CB0BBC7A4F"
+				structure: "born_in_chaos_v1:firewell"
+				type: "structure"
+			}]
+			title: "火井"
+			x: 21.5d
+			y: -8.0d
+		}
+		{
+			description: ["完成前面其一即可解锁"]
+			icon: "born_in_chaos_v1:spawn_structures_firewell"
+			id: "43C8D1FC9E6F0416"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "598C80622BD9D38D"
+					structure: "born_in_chaos_v1:clown_caravan_savanna"
+					type: "structure"
+				}
+				{
+					id: "75A2974651798CF6"
+					structure: "born_in_chaos_v1:clown_caravan_plains"
+					type: "structure"
+				}
+				{
+					id: "1FA7682CDA9B03BB"
+					structure: "born_in_chaos_v1:clown_caravan_taiga"
+					type: "structure"
+				}
+			]
+			title: "酗酒的小丑"
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "7C4580CE519F1DC7"
+			tasks: [
+				{
+					id: "211F5C11A7BCABFB"
+					item: "born_in_chaos_v1:stimulating_decoction"
+					type: "item"
+				}
+				{
+					id: "7FF552AB46150CF2"
+					item: "born_in_chaos_v1:intoxicating_decoction"
+					type: "item"
+				}
+				{
+					entity: "born_in_chaos_v1:zombie_clown"
+					icon: "born_in_chaos_v1:shattered_skull"
+					id: "0593CFEC1B6076E3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 23.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C4580CE519F1DC7"]
+			id: "0F7BE6FBDCA1C752"
+			invisible: true
+			tasks: [{
+				advancement: "born_in_chaos_v1:shakeand_mix"
+				criterion: ""
+				id: "54039594A593A843"
+				type: "advancement"
+			}]
+			x: 23.5d
+			y: -8.0d
+		}
+		{
+			description: ["完成前面其一即可解锁"]
+			icon: "born_in_chaos_v1:spawn_structures_firewell"
+			id: "52E8FC1D52EA6283"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "5EA71E0ECCD07063"
+					structure: "born_in_chaos_v1:dark_tower_taiga"
+					type: "structure"
+				}
+				{
+					id: "73EF3DCD8FBDD5D6"
+					structure: "born_in_chaos_v1:dark_tower_plain"
+					type: "structure"
+				}
+				{
+					id: "1940BEA0B130AA11"
+					structure: "born_in_chaos_v1:dark_tower_forest"
+					type: "structure"
+				}
+			]
+			title: "暗黑高塔"
+			x: 21.5d
+			y: -7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: "born_in_chaos_v1:orbofthe_summoner"
+			id: "70581359174D8CE8"
+			subtitle: "难缠的家伙"
+			tasks: [{
+				advancement: "born_in_chaos_v1:dismantledto_bones"
+				criterion: ""
+				id: "320A559F6AF36C32"
+				type: "advancement"
+			}]
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "70E81E1EB48BFD2B"
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller_not_despawn"
+				icon: "born_in_chaos_v1:shattered_skull"
+				id: "53C84A3EDFC9AE80"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C6C4CA30B71A90C"]
+			description: ["你以为这就完了?"]
+			id: "239CED0FB94C94D1"
+			subtitle: "头才是本体"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				id: "50BA61F557C514E6"
+				type: "advancement"
+			}]
+			x: 24.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C6C4CA30B71A90C"]
+			description: ["如果想要火把花可以去商店看看"]
+			id: "7D22BCE4CD1E7AB5"
+			subtitle: "对着恶魔南瓜使用转化试剂,你就能看到他真正的面貌"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "067A52DBF96877D2"
+				type: "advancement"
+			}]
+			x: 24.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"注意脚下"
+				"旅途愉快"
+			]
+			id: "1E6AE9F535F30453"
+			tasks: [{
+				id: "6F4AB8C21932C31B"
+				item: "minecraft:filled_map"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "0CC897763FEB8E76"
+			subtitle: "解放光明与黑暗,接受灾难的束缚"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "3B514FF7F2F654CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CC897763FEB8E76"]
+			id: "2FCEA2CAED31FEC6"
+			subtitle: "举步维艰！"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "6E89F11F02EE1CCF"
+				type: "advancement"
+			}]
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C70B90A7EBF7E96"]
+			id: "6604CE71DC3ADFD1"
+			tasks: [{
+				id: "31AE181C77D39C52"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			id: "0E59C7ED8C14B6C8"
+			subtitle: "途中可以把方块和物品带回来"
+			tasks: [{
+				id: "310E38AF587B07A1"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E59C7ED8C14B6C8"]
+			id: "59A6B6F580356420"
+			invisible: true
+			subtitle: "途中可以把方块和物品带回来,甚至是黑曜石"
+			tasks: [{
+				id: "13D54AD500A5368F"
+				item: {
+					Count: 1
+					id: "quark:flamerang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			description: [
+				"用剪刀修剪&2缠藤生命果&r获取。食用后会为玩家增加2点额外的&6“生命果生命值”上限&r。"
+				""
+				"“生命果生命值”仅能被玩家&6饥饿值机制恢复&r，不受任何其他的恢复手段影响。"
+				""
+				"其&6最大数量为原本的玩家血量上限/2&r。"
+				""
+				"用剪刀修剪&2缠藤生命果&r时有25%几率掉落&2生命藤条&r。只能种植在&2苔藓块&r上，且仅在处于&2繁茂洞穴群系&r时才会生长。"
+				""
+				"&4不受骨粉催熟机制影响"
+				"&8相当于生命水晶"
+			]
+			icon: "lifefruit:life_fruit_with_vine"
+			id: "28A57E91B4A65134"
+			subtitle: "提升生命值上限"
+			tasks: [
+				{
+					id: "453A69315127C09A"
+					item: "lifefruit:life_fruit"
+					type: "item"
+				}
+				{
+					id: "700C2736AE22575D"
+					item: "lifefruit:life_fruit_with_vine"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08A7FBDA1C5DAC55"]
+			id: "44DFBD83F6C96F2F"
+			subtitle: "初露锋芒"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "72A71127B9657015"
+				type: "kill"
+				value: 1L
+			}]
+			title: "初露锋芒"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "20AC3DF40B946082"
+			tasks: [{
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+				id: "077287466F3CA4FF"
+				structure: "born_in_chaos_v1:infernal_pumpkin"
+				type: "structure"
+			}]
+			x: 20.5d
+			y: -5.0d
+		}
+	]
+	title: "&2主世界"
+}

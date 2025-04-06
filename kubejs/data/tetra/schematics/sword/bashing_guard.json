@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/guard"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetra:warforge/hammer"
+    },
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/gui2.png",
+        "textureX": 56,
+        "textureY": 16
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.armor": 1
+        },
+        "secondaryAttributes": {
+            "generic.attack_speed": -1,
+            "generic.knockback_resistance":1
+        },
+        "secondaryEffects": {
+            "slam": [3, 1]
+        },
+        "durability": 2,
+        "integrity": -1
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:scale/", "tetra:bone/" ],
+            "moduleKey": "sword/bashing_guard",
+            "moduleVariant": "bashing_guard/"
+        }
+    ]
+}

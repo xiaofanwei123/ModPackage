@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 1,
+  "input": {
+    "item": "malum:alchemical_impetus"
+  },
+  "output": {
+    "count": 4,
+    "item": "minecraft:blaze_powder"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 4
+    },
+    {
+      "type": "arcane",
+      "count": 4
+    }
+  ],
+  "time": 300
+}

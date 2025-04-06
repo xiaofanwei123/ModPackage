@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ACA",
+        "BAB",
+        "ACA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:paper"
+        },
+        "B": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "C": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+       "item": "tetra:scroll_rolled",
+        "count": 1,
+        "nbt": {
+            "BlockEntityTag": {
+                "data": [
+                    {
+                        "key": "sword/blaze_blade",
+                        "schematics": [ "tetra:sword/blaze_blade"],
+                        "intricate": false,
+                        "material": 2,
+                        "ribbon": "ffa300",
+                        "glyphs": [ 3, 7, 5, 8 ]
+                    }
+                ]
+            }
+        }
+    }
+}

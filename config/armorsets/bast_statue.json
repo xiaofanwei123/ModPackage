@@ -1,0 +1,21 @@
+{
+    "armorSetName": "bast_statue",
+    "performanceMode": true,
+    "offHand": {
+      "itemKey": "kubejs:bast_statue",
+      "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.armor",
+        "value": 5,
+        "modifierUUID": "0c306df3-b39a-4340-90e5-f9e05a1df4e4",
+        "interactionType": "self",
+        "interactionDuration": 300,
+        "hideBonusDescription": true,
+        "onlyImmuneToNewEffects": false
+      }
+    ],
+    "hideGeneratedTooltip": true
+  }

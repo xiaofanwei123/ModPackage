@@ -1,0 +1,403 @@
+{
+    "content": {
+        "cured_zombie_villager": {
+            "type": "criteria",
+            "content": "minecraft:cured_zombie_villager",
+            "conditions": {
+                "villager": {
+                },
+                "zombie": {
+                }
+            },
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 800
+        },
+        
+        "villageguards_obj_zombie_common": {
+            "type": "entity",
+            "content": "minecraft:zombie",
+			"rarity": "COMMON",
+            "amount": {
+                "min": 2,
+                "max": 3
+            },
+            "unitWorth": 10
+        },
+		"villageguards_obj_zombie_uncommon": {
+            "type": "entity",
+            "content": "minecraft:zombie",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 6
+            },
+            "unitWorth": 10
+        },
+		"villageguards_obj_zombie_rare": {
+            "type": "entity",
+            "content": "minecraft:zombie",
+			"rarity": "RARE",
+            "amount": {
+                "min": 7,
+                "max": 16
+            },
+            "unitWorth": 10
+        },
+
+
+		"villageguards_obj_skeleton_common": {
+			"type": "entity",
+			"content": "minecraft:skeleton",
+            "rarity": "COMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 10
+		},
+		"villageguards_obj_skeleton_uncommon": {
+            "type": "entity",
+            "content": "minecraft:skeleton",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 5
+            },
+            "unitWorth": 10
+        },
+		"villageguards_obj_skeleton_rare": {
+            "type": "entity",
+            "content": "minecraft:skeleton",
+			"rarity": "RARE",
+            "amount": {
+                "min": 6,
+                "max": 16
+            },
+            "unitWorth": 10
+        },
+
+        "villageguards_obj_creeper_common": {
+			"type": "entity",
+			"content": "minecraft:screeper",
+            "rarity": "COMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 10
+		},
+		"villageguards_obj_creeper_uncommon": {
+            "type": "entity",
+            "content": "minecraft:creeper",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 4,
+                "max": 5
+            },
+            "unitWorth": 10
+        },
+		"villageguards_obj_creeper_rare": {
+            "type": "entity",
+            "content": "minecraft:creeper",
+			"rarity": "RARE",
+            "amount": {
+                "min": 6,
+                "max": 16
+            },
+            "unitWorth": 10
+        },
+
+        
+        "villageguards_obj_husk_common": {
+			"type": "entity",
+			"content": "minecraft:husk",
+            "rarity": "COMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 11
+		},		
+		"villageguards_obj_husk_uncommon": {
+			"type": "entity",
+			"content": "minecraft:husk",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 4,
+				"max": 5
+			},
+			"unitWorth": 11
+		},
+		"villageguards_obj_husk_rare": {
+			"type": "entity",
+			"content": "minecraft:husk",
+            "rarity": "RARE",
+			"amount": {
+				"min": 6,
+				"max": 16
+			},
+			"unitWorth": 11
+		},
+
+        "villageguards_obj_stray_common": {
+			"type": "entity",
+			"content": "minecraft:stray",
+            "rarity": "COMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 11
+		},		
+		"villageguards_obj_stray_uncommon": {
+			"type": "entity",
+			"content": "minecraft:stray",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 4,
+				"max": 5
+			},
+			"unitWorth": 11
+		},
+		"villageguards_obj_stray_rare": {
+			"type": "entity",
+			"content": "minecraft:stray",
+            "rarity": "RARE",
+			"amount": {
+				"min": 6,
+				"max": 16
+			},
+			"unitWorth": 11
+		},
+
+        "villageguards_obj_pillager_common": {
+			"type": "entity",
+			"content": "minecraft:pillager",
+            "rarity": "COMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 12
+		},		
+		"villageguards_obj_pillager_uncommon": {
+			"type": "entity",
+			"content": "minecraft:pillager",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 4,
+				"max": 5
+			},
+			"unitWorth": 12
+		},
+		"villageguards_obj_pillager_rare": {
+			"type": "entity",
+			"content": "minecraft:pillager",
+            "rarity": "RARE",
+			"amount": {
+				"min": 6,
+				"max": 16
+			},
+			"unitWorth": 12
+		},
+
+	
+		"villageguards_obj_vindicator_uncommon": {
+			"type": "entity",
+			"content": "minecraft:vindicator",
+            "rarity": "UNCOMMON",
+			"amount": {
+				"min": 2,
+				"max": 3
+			},
+			"unitWorth": 14
+		},
+		"villageguards_obj_vindicator_rare": {
+			"type": "entity",
+			"content": "minecraft:vindicator",
+            "rarity": "RARE",
+			"amount": {
+				"min": 4,
+				"max": 5
+			},
+			"unitWorth": 14
+		},
+
+        "villageguards_obj_evoker_rare": {
+			"type": "entity",
+			"content": "minecraft:evoker",
+            "rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 30
+		},
+		"villageguards_obj_evoker_epic": {
+			"type": "entity",
+			"content": "minecraft:evoker",
+            "rarity": "EPIC",
+			"amount": {
+				"min": 2,
+				"max": 2
+			},
+			"unitWorth": 30
+		},
+        		
+		"villageguards_obj_ravager_epic": {
+			"type": "entity",
+			"content": "minecraft:ravager",
+            "rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 30
+		},
+
+		"villageguards_obj_barrel_zombie_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:barrel_zombie",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 11
+        },
+		"villageguards_obj_barrel_zombie_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:barrel_zombie",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 11
+        },
+        "villageguards_obj_door_knight_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:door_knight",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 11
+        },
+		"villageguards_obj_door_knight_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:door_knight",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 11
+        },
+        "villageguards_obj_zombie_clown_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_clown",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 11
+        },
+		"villageguards_obj_zombie_clown_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_clown",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 11
+        },
+        "villageguards_obj_zombie_fisherman_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_fisherman",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 11
+        },
+		"villageguards_obj_zombie_fisherman_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_fisherman",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 11
+        },
+        "villageguards_obj_zombie_lumberjack_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_lumberjack",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 11
+        },
+		"villageguards_obj_zombie_lumberjack_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_lumberjack",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 11
+        },
+        "villageguards_obj_zombie_bruiser_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_bruiser",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 12
+        },
+		"villageguards_obj_zombie_bruiser_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:zombie_bruiser",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 12
+        },
+        "villageguards_obj_dread_hound_uncommon": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:dread_hound",
+			"rarity": "UNCOMMON",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 12
+        },
+		"villageguards_obj_dread_hound_rare": {
+            "type": "entity",
+            "content": "born_in_chaos_v1:dread_hound",
+			"rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 4
+            },
+            "unitWorth": 12
+        }
+	}
+}
